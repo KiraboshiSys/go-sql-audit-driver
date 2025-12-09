@@ -1,3 +1,8 @@
+# Fork Notice  
+
+- This repository is a fork of `github.com/mickamy/go-sql-audit-driver`. 
+- Module path has been changed to `github.com/KiraboshiSys/go-sql-audit-driver` for long-term internal use.
+
 # audriver - SQL Audit Driver for Go
 
 audriver is a transparent SQL audit logging driver for Go that automatically captures and logs database modifications (
@@ -15,7 +20,7 @@ INSERT, UPDATE, DELETE operations) without requiring changes to your existing ap
 ## Installation
 
 ```bash
-go get github.com/mickamy/go-sql-audit-driver
+go get github.com/KiraboshiSys/go-sql-audit-driver
 ```
 
 ## Quick Start
@@ -30,7 +35,7 @@ import (
 	"context"
 
 	"github.com/lib/pq"
-	"github.com/mickamy/go-sql-audit-driver/audriver"
+	"github.com/KiraboshiSys/go-sql-audit-driver/audriver"
 )
 
 func main() {
