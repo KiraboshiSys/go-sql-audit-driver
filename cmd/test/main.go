@@ -7,7 +7,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/lib/pq"
 
-	"github.com/mickamy/go-sql-audit-driver/audriver"
+	"github.com/KiraboshiSys/go-sql-audit-driver/audriver"
 )
 
 func main() {

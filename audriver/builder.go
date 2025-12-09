@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/mickamy/go-sql-audit-driver/internal/postgres"
+	"github.com/KiraboshiSys/go-sql-audit-driver/internal/postgres"
 )
 
 // IDGenerator generates unique IDs for database modifications.
